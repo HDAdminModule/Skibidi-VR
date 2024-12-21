@@ -46,5 +46,4 @@ game.Players.LocalPlayer.Character:FindFirstChild("Hunanoid").Health = 999999999
 end
 print("Netless Ran (slightly edited by HDAdminModule github)")
 wait(2)
-error("pls execute vr manually")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/Main.lua"))()
