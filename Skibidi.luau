@@ -35,6 +35,7 @@ for _, child in pairs(workspace:GetDescendants()) do
         child.Enabled = false
     elseif child:IsA("Explosion") then
         child.Visible = false
+
 game:GetService("StarterGui"):SetCore("SendNotification", { 
     Title = "Notification";
     Text = "Executing GodMode";
