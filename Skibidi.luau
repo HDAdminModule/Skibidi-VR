@@ -9,7 +9,7 @@ end
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
     Title = "Notification";
-    Text = "Netless Ran";
+    Text = "Netless Ran (slightly edited by HDAdminModule github)";
     Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 Duration = 16;
 
@@ -35,7 +35,16 @@ for _, child in pairs(workspace:GetDescendants()) do
         child.Enabled = false
     elseif child:IsA("Explosion") then
         child.Visible = false
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+    Title = "Notification";
+    Text = "Executing GodMode";
+    Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 16;
+game.Players.LocalPlayer.Character:FindFirstChild("Hunanoid").MaxHealth = 99999999999999999
+game.Players.LocalPlayer.Character:FindFirstChild("Hunanoid").Health = 99999999999999999
     end
 end
+print("Netless Ran (slightly edited by HDAdminModule github)")
 wait(2)
+error("pls execute vr manually")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/Main.lua"))()
