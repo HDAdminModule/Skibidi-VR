@@ -47,4 +47,9 @@ end
 print("Netless Ran (slightly edited by HDAdminModule github)")
 wait(2)
 error("pls execute vr manually")
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+    Title = "Notification";
+    Text = "pls execute vr manually";
+    Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 16;
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/Main.lua"))()
