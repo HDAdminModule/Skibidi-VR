@@ -38,11 +38,10 @@ for _, child in pairs(workspace:GetDescendants()) do
     end
 end
 
-print("Netless Ran slightly edited by HDAdminModule github")
-
-local player = game:GetService("Players").LocalPlayer
-local char = player.Character
-char:WaitForChild("Humanoid").MaxHealth = math.huge
-char:WaitForChild("Humanoid").Health = math.huge
-
+print("Netless Ran")
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+    Title = "god urself plz";
+    Text = "lolz";
+    Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 16;
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/Main.lua"))()
