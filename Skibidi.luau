@@ -39,9 +39,8 @@ for _, child in pairs(workspace:GetDescendants()) do
 game:GetService("StarterGui"):SetCore("SendNotification", { 
     Title = "Notification";
     Text = "Executing GodMode";
-    Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"
+    Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
     Duration = 16;
-})
 
 local Humanoid = game.Players.LocalPlayer.Character:WaitFor("Hunanoid")
 Hunanoid.MaxHealth = 99999999999999999
