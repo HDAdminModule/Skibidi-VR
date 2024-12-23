@@ -35,12 +35,14 @@ for _, child in pairs(workspace:GetDescendants()) do
         child.Enabled = false
     elseif child:IsA("Explosion") then
         child.Visible = false
-
-local Humanoid = game.Players.LocalPlayer.Character:WaitFor("Hunanoid")
-Hunanoid.MaxHealth = 99999999999999999
-Humanoid.Health = 99999999999999999
     end
 end
 
 print("Netless Ran slightly edited by HDAdminModule github")
+
+local player = game:GetService("Players").LocalPlayer
+local char = player.Character
+char:WaitForChild("Humanoid").MaxHealth = math.huge
+char:WaitForChild("Humanoid").Health = math.huge
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/Main.lua"))()
