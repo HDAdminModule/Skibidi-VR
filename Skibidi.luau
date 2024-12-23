@@ -48,6 +48,5 @@ Hunanoid.MaxHealth = 99999999999999999
 Humanoid.Health = 99999999999999999
     end
 end
-print("Netless Ran (slightly edited by HDAdminModule github)")
-wait(2)
+print("Netless Ran slightly edited by HDAdminModule github")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/AstralHub/main/Main.lua"))()
