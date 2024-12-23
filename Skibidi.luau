@@ -39,10 +39,13 @@ for _, child in pairs(workspace:GetDescendants()) do
 game:GetService("StarterGui"):SetCore("SendNotification", { 
     Title = "Notification";
     Text = "Executing GodMode";
-    Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
-Duration = 16;
-game.Players.LocalPlayer.Character:FindFirstChild("Hunanoid").MaxHealth = 99999999999999999
-game.Players.LocalPlayer.Character:FindFirstChild("Hunanoid").Health = 99999999999999999
+    Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"
+    Duration = 16;
+})
+
+local Humanoid = game.Players.LocalPlayer.Character:WaitFor("Hunanoid")
+Hunanoid.MaxHealth = 99999999999999999
+Humanoid.Health = 99999999999999999
     end
 end
 print("Netless Ran (slightly edited by HDAdminModule github)")
